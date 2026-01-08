@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#2196F3"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_yuvarlak_beyaz"
+        android:padding="20dp"
+        app:layout_constraintBottom_toTopOf="@id/btnKaydet"
+        app:layout_constraintTop_toBottomOf="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="TEMEL BİLGİLER"
+                android:textColor="#757575"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/etIlacAdi"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/bg_edittext_border"
+                android:hint="İlaç Adı"
+                android:paddingHorizontal="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#9E9E9E" />
+
+            <EditText
+                android:id="@+id/etBarkod"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_edittext_border"
+                android:hint="Barkod Kodu"
+                android:paddingHorizontal="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#9E9E9E" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="ENVANTER DETAYLARI"
+                android:textColor="#757575"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etStok"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_border"
+                    android:hint="Mevcut Stok"
+                    android:inputType="number"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#9E9E9E" />
+
+                <EditText
+                    android:id="@+id/etKritik"
+                    android:layout_width="0dp"
+                    android:layout_height="55dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_edittext_border"
+                    android:hint="Kritik Seviye"
+                    android:inputType="number"
+                    android:paddingHorizontal="15dp"
+                    android:textColor="#000000"
+                    android:textColorHint="#9E9E9E" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etFiyat"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_edittext_border"
+                android:hint="Birim Fiyatı (₺)"
+                android:inputType="numberDecimal"
+                android:paddingHorizontal="15dp"
+                android:textColor="#000000"
+                android:textColorHint="#9E9E9E" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btnKaydet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/ana_yesil"
+        android:text="KAYDET"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:cornerRadius="12dp"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

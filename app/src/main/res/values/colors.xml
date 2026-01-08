@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="ana_yesil">#009688</color>
+    <color name="arka_plan_gri">#F5F5F5</color>
+    <color name="kirmizi_uyari">#FF5252</color>
+    <color name="gri_metin">#757575</color>
+</resources>
