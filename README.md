@@ -1,6 +1,6 @@
 # 💊 Eczane Envanter Takip Sistemi (Pharmacy Stock App)
 
-Java ve XML kullanılarak geliştirilmiş, **Offline-First** (internet gerektirmeyen) prensibiyle çalışan kapsamlı bir stok yönetim uygulamasıdır. Eczane veya depoların ilaç giriş-çıkışlarını yönetmesini, kritik stok seviyelerini takip etmesini ve satış analizi yapmasını sağlar.
+Eczane veya depoların ilaç giriş-çıkışlarını yönetmesini, kritik stok seviyelerini takip etmesini ve satış analizi yapmasını sağlar.
 
 ## 📱 Ekran Görüntüleri
 
@@ -22,9 +22,9 @@ Java ve XML kullanılarak geliştirilmiş, **Offline-First** (internet gerektirm
 
 ## 🛠️ Kullanılan Teknolojiler
 
-* **Dil:** Java (Android Native)
-* **Veritabanı:** SQLite (Yerel Depolama)
-* **Arayüz (UI):** XML, Material Design Components (CardView, RecyclerView, FloatingActionButton)
+* **Dil:** Java 
+* **Veritabanı:** SQLite 
+* **Arayüz (UI):** XML, Material Design Components 
 * **Mimari:** MVC (Model-View-Controller)
 
 ## 📂 Proje Yapısı (Kısa Bakış)
@@ -32,16 +32,3 @@ Java ve XML kullanılarak geliştirilmiş, **Offline-First** (internet gerektirm
 * `DatabaseHelper.java`: Tüm veritabanı CRUD işlemleri ve özel SQL rapor sorguları burada yönetilir.
 * `StokHareketiActivity.java`: Ürün giriş/çıkışlarının iş mantığı (Business Logic) buradadır.
 * `IlacAdapter.java`: Stok durumuna göre satırların rengini (Yeşil/Kırmızı) dinamik değiştiren adaptör sınıfı.
-
-## 🚀 Kurulum ve Çalıştırma
-
-1.  Projeyi bilgisayarınıza klonlayın:
-    ```bash
-    git clone [https://github.com/KULLANICI_ADIN/eczane-envanteri.git](https://github.com/KULLANICI_ADIN/eczane-envanteri.git)
-    ```
-2.  Android Studio'yu açın ve **File > Open** diyerek klasörü seçin.
-3.  Gradle senkronizasyonunun bitmesini bekleyin.
-4.  Emulator veya fiziksel cihaz seçerek **Run (▶)** tuşuna basın.
-
----
-*Geliştirici: [Senin Adın]*
