@@ -1,6 +1,6 @@
 # 💊 Eczane Envanter Takip Sistemi (Pharmacy Stock App)
 
-Eczane veya depoların ilaç giriş çıkışlarını yönetmesini, kritik stok seviyelerini takip etmesini ve satış analizi yapmasını sağlar.
+Eczanelerin ilaç giriş ve çıkışlarını yönetmesini, kritik stok seviyelerini takip etmesini ve satış analizi yapmasını sağlar.
 
 ## 📱 Ekran Görüntüleri
 
