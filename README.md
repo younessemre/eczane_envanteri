@@ -6,8 +6,8 @@ Java ve XML kullanılarak geliştirilmiş, **Offline-First** (internet gerektirm
 
 | 🏠 Ana Katalog & Liste | 🔄 Stok Giriş/Çıkış | 📊 Raporlar & Analiz |
 |:---:|:---:|:---:|
-| ![Ana Sayfa] <img width="1440" height="3120" alt="1" src="https://github.com/user-attachments/assets/335aa4ad-5500-4e36-bb4b-71ddd0f84496" />
- | ![Stok Islem] <img width="1440" height="3120" alt="2" src="https://github.com/user-attachments/assets/9a208aaa-07e4-40ec-b353-9988c013efa2" /> | ![Rapor] <img width="1440" height="3120" alt="3" src="https://github.com/user-attachments/assets/2fc079b1-797c-4b5d-ac3b-3581d80539e7" />
+| <img width="1440" height="3120" alt="1" src="https://github.com/user-attachments/assets/335aa4ad-5500-4e36-bb4b-71ddd0f84496" />
+ | <img width="1440" height="3120" alt="2" src="https://github.com/user-attachments/assets/9a208aaa-07e4-40ec-b353-9988c013efa2" /> | <img width="1440" height="3120" alt="3" src="https://github.com/user-attachments/assets/2fc079b1-797c-4b5d-ac3b-3581d80539e7" />
  |
 
 ## ✨ Öne Çıkan Özellikler
